@@ -1,17 +1,15 @@
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/with-next-css)
 
-# next-css example
+# Demonstration Instructions
 
-## How to use
+```sh
+yarn
 
-### Using `create-next-app`
+yarn storybook
 
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-next-css with-next-css-app
-# or
-yarn create next-app --example with-next-css with-next-css-app
+# notice nothing renders within Storybook at `localhost:9001`
+# comment out `withRouter` line (#31) in `.storybook/config.js`
+# notice red screen of death
 ```
 
 ### Download manually
